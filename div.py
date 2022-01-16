@@ -7,3 +7,7 @@ def test():
 
 def test2():
   print('Integration Testing')
+
+def test3():
+  print('UAT')
+
