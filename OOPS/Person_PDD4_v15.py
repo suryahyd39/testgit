@@ -11,6 +11,7 @@ m1=p.say_hello
 print('******')
 print(m1.__func__)
 
+
 """
 below example of monkey patching using lambda expression to define a method at runtime
 """
