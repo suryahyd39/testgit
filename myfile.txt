@@ -1,4 +1,7 @@
 line 1
+<<<<<<< HEAD
 line 2
 line 3
 line 4
+=======
+>>>>>>> parent of bbc85d2... line2
