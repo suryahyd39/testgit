@@ -1,0 +1,4 @@
+#comments can be written by inserting #
+*.html 
+!allow.html
+/for testing
