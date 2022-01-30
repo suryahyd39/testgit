@@ -1,6 +1,9 @@
 from time import perf_counter
 import urllib.request
+"""
+This class takes a URL and calculates the length of page , time taken to download
 
+"""
 class webPage:
     def __init__(self,url):
         self.url=url 
@@ -26,8 +29,7 @@ class webPage:
         return self._pagesize
     def download_page(self):
         self._page=None
-        self._time_to_download=None
-        
+        self._time_to_download=None        
         start_time=perf_counter()
         with urllib.request.urlopen(self.url) as f:
             self._page=f.read()
