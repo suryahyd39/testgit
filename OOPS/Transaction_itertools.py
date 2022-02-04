@@ -7,8 +7,7 @@ print(next(acct_num))
 """
 import itertools
 class TransactionNumber:
-    transaction_counter=itertools.count(100)
-     
+    transaction_counter=itertools.count(100)     
     def nextval(self):
         self._nextval=next(TransactionNumber.transaction_counter)         
         
